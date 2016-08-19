@@ -1,0 +1,80 @@
+html, body{
+  width: 500px;
+  height: 600px;
+  background: #ECF0F1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9em;
+  color: #34495E;
+}
+
+.clear{
+  clear: both;
+}
+
+#codesmithlogo {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+h1 {
+  margin-left: 35px;
+  margin-top: 15px;
+  padding-top: 10px;
+
+}
+
+#pv {
+  font-size: 0.8em;
+}
+
+div#choice {
+/*  border: 1px solid black;
+*/  background: #D2D7D3;
+  width: 97%;
+  box-shadow: 8px 8px 4px #888888;
+}
+#addressphone {
+  /*float: left;*/
+  /*width: 50px;*/
+  /*background-color: yellow; */
+}
+.post{
+  margin-top: 20px;
+  /*margin-bottom: 25px;*/
+}
+
+#postimage {
+  border: 1px solid black;
+}
+
+#name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr{
+  /*border: none;*/
+  /*outline: black solid 1px;*/
+  margin-top: 10px;
+  width: 50%;
+  /*border-top: 1px dashed #8c8b8b;*/
+
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+  border: 0;
+}
+.left {
+  float: left;
+  /*background-color: blue;*/
+  width: 48%;
+}
+.right {
+  float: left;
+  /*background-color: yellow;*/
+  width: 48%;
+  margin-top: 70px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "CS Lunch",
+  "version": "1.0",
+  "icons": {"16": "error.png"},
+  "description": "picks a lunch for you",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  // "background": {
+  //   // "scripts": ["jquery.min.js", "data.js", "main.js"],
+  //   "persistent": false
+  // },
+  "permissions": [
+    "activeTab",
+    "geolocation"
+  ],
+  "web_accessible_resources": ["popup.css"]
+}
